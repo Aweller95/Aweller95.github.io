@@ -1,0 +1,93 @@
+body {
+    background: #F29E4C;
+    font-family: "Nunito", sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+
+.blurb h2  {
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+#mainNavbar .navbar-brand {
+    color: black;
+    font-size: 1.6rem;
+}
+
+#mainNavbar .nav-link {
+    color: black;
+}
+
+#mainNavbar .nav-link:hover {
+    color: black;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#headingGroup span {
+    color: red;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #F2bE4F;
+    transition: background 1s;
+}
+
+.customButton{
+    border:none;
+    position:relative;
+    font-size:1.1em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+
+.customButton:before,.customButton:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: red;
+    transition:400ms ease all;
+}
+
+.customButton:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+
+.customButton:hover:before,.customButton:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+
+@media (max-width: 1400px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2.8rem;
+    }
+}
