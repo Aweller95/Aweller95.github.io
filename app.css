@@ -16,8 +16,8 @@ body {
     line-height: 2;
 }
 
-.content {
-    margin-top: 100px;
+.img-body {
+    width: 0;
 }
 
 #mainNavbar .navbar-brand {
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar.scrolled {
-    background: #F2bE4F;
+    background: #F29E4C;
     transition: background 1s;
 }
 
